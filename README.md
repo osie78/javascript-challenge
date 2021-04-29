@@ -6,7 +6,7 @@ For this, we use a loop to append table rows (tr) and table data (td)
 
 Then the table is populated looping through the report using "key" and "value" as parameters. 
 
-# Filtering by date
+## Filtering by date
 First the button is selected and we create a function when the button link is clicked using button.on('click', function () ).
 The input value entered in the search field is read and is assigned to the date column in the dataset. 
 Using the filter function on the column datetime, the filter is applied on the condition datetime greater than the input. 
